@@ -1,5 +1,5 @@
 // src/app/page.js
-const { getTodayMatches } = require('../../backend/matches');
+import { getTodayMatches } from '#backend/matches';
 
 export default async function Home() {
   // Fetch today's matches
