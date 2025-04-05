@@ -1,0 +1,16 @@
+# Node.js dependencies
+.backend/node_modules
+
+# Env files
+.backend/.env
+
+# Logs
+.backend/npm-debug.log*
+.backend/yarn-debug.log*
+.backend/yarn-error.log*
+
+# OS junk
+.DS_Store
+
+# Optional: ignore frontend node_modules too (if using Next.js)
+node_modules
